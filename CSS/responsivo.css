@@ -1,0 +1,105 @@
+
+@media (max-width: 1000px){
+    h1.título-section{
+        font-size: 3rem;
+    }
+    /* Estilo do menu */
+    header{
+        background-image: none;
+        background-color: var(--corLaranja);
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .btn-menu-mobile, .menu-mobile{
+        display: block;
+}
+    
+    
+/* Estilo da hero */
+   section.hero{
+    background-image: linear-gradient(to top, var(--corAzul) 90%, var(--corLaranja) 10%);
+}
+
+.hero >.interface{
+    text-align: center;
+    gap: 70px;    
+    flex-direction: column-reverse;
+}
+
+.hero .txt-hero h1{
+    font-size: 2rem;
+    
+}
+
+.hero .txt-hero h1 span{
+        font-size: 3rem;
+}
+
+.hero .txt-hero p{
+    font-size: 1rem;  
+}
+
+.hero .img-hero img{
+   width: 100%; 
+   max-width: 320px;
+   height: auto;
+}
+/* Estilo sobre mim */
+.sobre-mim > .interface{
+    flex-direction: column;
+    gap: 64px;
+}
+
+.sobre-mim .img-sobre img{
+   width: 100%;
+   max-width: 300px;
+   height: auto; 
+}
+
+/* ESTILO DA SESSÃO HABILIDADES */
+.skills article{
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr; 
+}
+
+.skills h1{
+   font-size: 2.4rem; 
+}
+
+/*ESTILO DO PORTFÓLIO  */
+.portfolio .portfolio-container{
+   grid-template: 1fr 1fr 1fr 1fr / 1fr;
+}
+
+.portfolio-container .portfolio-box{
+    max-width: 300px;
+    margin: 0 auto;
+}    
+
+/* ESTILO DO FORMULÁRIO */
+.contato > .interface{
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.contato form{
+    width: 100%;
+}
+
+
+.contato form .tel-proj{
+    display: block;
+}
+
+
+/* ESTILO DO RODAPÉ */
+footer > .interface{
+    flex-direction: column-reverse;
+    gap: 32px;
+    text-align: center;
+    }
+  
+}
